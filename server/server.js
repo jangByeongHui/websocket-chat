@@ -1,14 +1,14 @@
-const server = require('http').createServer()
-const io = require('socket.io')(server)
+const server = require("http").createServer();
+const io = require("socket.io")(server);
 
-const ClientManager = require('./ClientManager')
-const ChatroomManager = require('./ChatroomManager')
-const makeHandlers = require('./handlers')
+const ClientManager = require("./ClientManager");
+const ChatroomManager = require("./ChatroomManager");
+const makeHandlers = require("./handlers");
 
-const clientManager = ClientManager()
-const chatroomManager = ChatroomManager()
+const clientManager = ClientManager();
+const chatroomManager = ChatroomManager();
 
-io.on('connection', function (client) {
+io.on("connection", function (client) {
   const {
     handleRegister,
     handleJoin,
@@ -16,36 +16,36 @@ io.on('connection', function (client) {
     handleMessage,
     handleGetChatrooms,
     handleGetAvailableUsers,
-    handleDisconnect
-  } = makeHandlers(client, clientManager, chatroomManager)
+    handleDisconnect,
+  } = makeHandlers(client, clientManager, chatroomManager);
 
-  console.log('client connected...', client.id)
-  clientManager.addClient(client)
+  console.log("클라이언트 연결중...", client.id);
+  clientManager.addClient(client);
 
-  client.on('register', handleRegister)
+  client.on("register", handleRegister);
 
-  client.on('join', handleJoin)
+  client.on("join", handleJoin);
 
-  client.on('leave', handleLeave)
+  client.on("leave", handleLeave);
 
-  client.on('message', handleMessage)
+  client.on("message", handleMessage);
 
-  client.on('chatrooms', handleGetChatrooms)
+  client.on("chatrooms", handleGetChatrooms);
 
-  client.on('availableUsers', handleGetAvailableUsers)
+  client.on("availableUsers", handleGetAvailableUsers);
 
-  client.on('disconnect', function () {
-    console.log('client disconnect...', client.id)
-    handleDisconnect()
-  })
+  client.on("disconnect", function () {
+    console.log("client disconnect...", client.id);
+    handleDisconnect();
+  });
 
-  client.on('error', function (err) {
-    console.log('received error from client:', client.id)
-    console.log(err)
-  })
-})
+  client.on("error", function (err) {
+    console.log("received error from client:", client.id);
+    console.log(err);
+  });
+});
 
 server.listen(3000, function (err) {
-  if (err) throw err
-  console.log('listening on port 3000')
-})
+  if (err) throw err;
+  console.log("listening on port 3000");
+});

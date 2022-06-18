@@ -1,19 +1,18 @@
 module.exports = [
   {
-    name: 'Terminus',
-    image: 'chatrooms/terminus.jpg'
+    name: "방화수류정",
+    image: "chatrooms/SUWON.jpg",
   },
   {
-    name: 'Alexandria',
-    image: 'chatrooms/alexandria.jpg'
+    name: "에버랜드",
+    image: "chatrooms/Everland.jpg",
   },
   {
-    name: 'Sanctuary',
-    image: 'chatrooms/sanctuary.jpg'
+    name: "화성행궁",
+    image: "chatrooms/SUWON2.jpg",
   },
   {
-    name: 'Hilltop',
-    image: 'chatrooms/hilltop.jpg'
-  }
-]
-
+    name: "롯데월드",
+    image: "chatrooms/lotteworld.jpg",
+  },
+];
