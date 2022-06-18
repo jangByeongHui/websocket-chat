@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "22bd5a17e6b74a95bc44"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "3782d9b314e743ec39d5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -53188,14 +53188,14 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _templateObject = _taggedTemplateLiteral(['\n  position: relative;\n  height: 100%;\n  width: 100%;\n  overflow: auto;\n  z-index: 1;\n'], ['\n  position: relative;\n  height: 100%;\n  width: 100%;\n  overflow: auto;\n  z-index: 1;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  position: relative;\n  max-width: 1000px;\n  margin: auto;\n  padding: 40px 0;\n  height: 100%;\n  box-sizing: border-box;\n'], ['\n  position: relative;\n  max-width: 1000px;\n  margin: auto;\n  padding: 40px 0;\n  height: 100%;\n  box-sizing: border-box;\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  margin: 0 20px;\n  height: 100%;\n'], ['\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  margin: 0 20px;\n  height: 100%;\n']),
-    _templateObject4 = _taggedTemplateLiteral(['\n  background: url(', ') no-repeat center center fixed;\n  background-size: cover;\n  height: 100%;\n  overflow: hidden;\n'], ['\n  background: url(', ') no-repeat center center fixed;\n  background-size: cover;\n  height: 100%;\n  overflow: hidden;\n']),
-    _templateObject5 = _taggedTemplateLiteral(['\ncursor: pointer;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  a {\n    text-decoration: none;\n  }\n  img {\n    box-shadow: rgba(255, 255, 255, 0.2) 0 0 10px 2px;\n  }\n'], ['\ncursor: pointer;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  a {\n    text-decoration: none;\n  }\n  img {\n    box-shadow: rgba(255, 255, 255, 0.2) 0 0 10px 2px;\n  }\n']),
-    _templateObject6 = _taggedTemplateLiteral(['\n  position: relative;\n'], ['\n  position: relative;\n']),
-    _templateObject7 = _taggedTemplateLiteral(['\n  position: fixed;\n'], ['\n  position: fixed;\n']),
-    _templateObject8 = _taggedTemplateLiteral(['\n  font-size: 24px;\n  height: 27px;\n  text-align: center;\n  color: #fafafa;\n'], ['\n  font-size: 24px;\n  height: 27px;\n  text-align: center;\n  color: #fafafa;\n']);
+var _templateObject = _taggedTemplateLiteral(["\n  position: relative;\n  height: 100%;\n  width: 100%;\n  overflow: auto;\n  z-index: 1;\n"], ["\n  position: relative;\n  height: 100%;\n  width: 100%;\n  overflow: auto;\n  z-index: 1;\n"]),
+    _templateObject2 = _taggedTemplateLiteral(["\n  position: relative;\n  max-width: 1000px;\n  margin: auto;\n  padding: 40px 0;\n  height: 100%;\n  box-sizing: border-box;\n"], ["\n  position: relative;\n  max-width: 1000px;\n  margin: auto;\n  padding: 40px 0;\n  height: 100%;\n  box-sizing: border-box;\n"]),
+    _templateObject3 = _taggedTemplateLiteral(["\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  margin: 0 20px;\n  height: 100%;\n"], ["\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n  margin: 0 20px;\n  height: 100%;\n"]),
+    _templateObject4 = _taggedTemplateLiteral(["\n  background: url(", ") no-repeat center center fixed;\n  background-size: cover;\n  height: 100%;\n  overflow: hidden;\n"], ["\n  background: url(", ") no-repeat center center fixed;\n  background-size: cover;\n  height: 100%;\n  overflow: hidden;\n"]),
+    _templateObject5 = _taggedTemplateLiteral(["\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  a {\n    text-decoration: none;\n  }\n  img {\n    box-shadow: rgba(255, 255, 255, 0.2) 0 0 10px 2px;\n  }\n"], ["\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  a {\n    text-decoration: none;\n  }\n  img {\n    box-shadow: rgba(255, 255, 255, 0.2) 0 0 10px 2px;\n  }\n"]),
+    _templateObject6 = _taggedTemplateLiteral(["\n  position: relative;\n"], ["\n  position: relative;\n"]),
+    _templateObject7 = _taggedTemplateLiteral(["\n  position: fixed;\n"], ["\n  position: fixed;\n"]),
+    _templateObject8 = _taggedTemplateLiteral(["\n  font-size: 24px;\n  height: 27px;\n  text-align: center;\n  color: #fafafa;\n"], ["\n  font-size: 24px;\n  height: 27px;\n  text-align: center;\n  color: #fafafa;\n"]);
 
 var _react = __webpack_require__(0);
 
@@ -53247,11 +53247,8 @@ function renderAvatar(user) {
   var props = user ? { src: user.image } : {
     icon: _react2.default.createElement(
       _FontIcon2.default,
-      {
-        style: { fontSize: 96 },
-        className: 'material-icons'
-      },
-      'perm_identity'
+      { style: { fontSize: 96 }, className: "material-icons" },
+      "perm_identity"
     )
   };
 
@@ -53259,7 +53256,7 @@ function renderAvatar(user) {
 }
 
 function fullName(user) {
-  return user ? user.name + ' ' + user.lastName : 'Who are you?';
+  return user ? user.name + " " + user.lastName : "캐릭터 미선택";
 }
 
 exports.default = function (_ref) {
@@ -53288,15 +53285,15 @@ exports.default = function (_ref) {
                 null,
                 _react2.default.createElement(
                   _reactRouterDom.Link,
-                  { to: '/user' },
+                  { to: "/user" },
                   renderAvatar(user)
                 ),
                 _react2.default.createElement(
                   UserName,
                   null,
-                  ' ',
+                  " ",
                   fullName(user),
-                  ' '
+                  " "
                 )
               )
             )
@@ -53308,11 +53305,8 @@ exports.default = function (_ref) {
     _react2.default.createElement(
       _FullScreen2.default,
       null,
-      _react2.default.createElement(BackgroundImage, { src: 'background.jpg' }),
-      _react2.default.createElement(_Overlay2.default, {
-        opacity: 0.4,
-        background: '#212121'
-      })
+      _react2.default.createElement(BackgroundImage, { src: "background.jpg" }),
+      _react2.default.createElement(_Overlay2.default, { opacity: 0.4, background: "#212121" })
     )
   );
 };
@@ -59129,12 +59123,12 @@ var UserSelection = function (_React$Component) {
   }
 
   _createClass(UserSelection, [{
-    key: 'handleSelection',
+    key: "handleSelection",
     value: function handleSelection(selectedUser) {
       this.props.register(selectedUser.name);
     }
   }, {
-    key: 'renderUserItems',
+    key: "renderUserItems",
     value: function renderUserItems() {
       var _this2 = this;
 
@@ -59146,23 +59140,19 @@ var UserSelection = function (_React$Component) {
           primaryText: user.name,
           secondaryText: user.statusText,
           key: user.name,
-          leftAvatar: _react2.default.createElement(_Avatar2.default, { src: user.image, alt: '' })
+          leftAvatar: _react2.default.createElement(_Avatar2.default, { src: user.image, alt: "" })
         });
       });
     }
   }, {
-    key: 'render',
+    key: "render",
     value: function render() {
-      var actions = [_react2.default.createElement(_FlatButton2.default, {
-        label: 'Cancel',
-        primary: true,
-        onClick: this.props.close
-      })];
+      var actions = [_react2.default.createElement(_FlatButton2.default, { label: "\uB2EB\uAE30", primary: true, onClick: this.props.close })];
 
       return _react2.default.createElement(
         _Dialog2.default,
         {
-          title: 'Pick your character.',
+          title: "\uB2F9\uC2E0\uC758 \uCE90\uB9AD\uD130\uB97C \uC120\uD0DD\uD558\uC138\uC694.",
           actions: actions,
           modal: false,
           open: true,
@@ -61997,15 +61987,15 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(['\n  position: relative;\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  height: 100%;\n  width: 420px;\n  box-sizing: border-box;\n'], ['\n  position: relative;\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  height: 100%;\n  width: 420px;\n  box-sizing: border-box;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  position: relative;\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  height: 100%;\n  width: 100%;\n  box-sizing: border-box;\n  z-index: 1;\n'], ['\n  position: relative;\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  height: 100%;\n  width: 100%;\n  box-sizing: border-box;\n  z-index: 1;\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin: 0 20px ;\n  z-index: 1;\n  color: #fafafa !important;\n  border-bottom: 1px solid;\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin: 0 20px ;\n  z-index: 1;\n  color: #fafafa !important;\n  border-bottom: 1px solid;\n']),
-    _templateObject4 = _taggedTemplateLiteral(['\n  text-align: center;\n  font-size: 24px;\n'], ['\n  text-align: center;\n  font-size: 24px;\n']),
-    _templateObject5 = _taggedTemplateLiteral(['\n  hr {\n    visibility: hidden;\n  }\n'], ['\n  hr {\n    visibility: hidden;\n  }\n']),
-    _templateObject6 = _taggedTemplateLiteral(['\n  white-space: normal !important;\n  word-break: break-all !important;\n  overflow: initial !important;\n  width: 100%;\n  height: auto !important;\n  color: #fafafa !important;\n'], ['\n  white-space: normal !important;\n  word-break: break-all !important;\n  overflow: initial !important;\n  width: 100%;\n  height: auto !important;\n  color: #fafafa !important;\n']),
-    _templateObject7 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  padding: 20px;\n  align-self: center;\n  border-top: 1px solid #fafafa;\n'], ['\n  display: flex;\n  align-items: center;\n  padding: 20px;\n  align-self: center;\n  border-top: 1px solid #fafafa;\n']),
-    _templateObject8 = _taggedTemplateLiteral(['\n  position: absolute;\n  top: 0;\n  width: 100%;\n'], ['\n  position: absolute;\n  top: 0;\n  width: 100%;\n']),
-    _templateObject9 = _taggedTemplateLiteral(['\n  height: 100%;\n  overflow: auto;\n'], ['\n  height: 100%;\n  overflow: auto;\n']);
+var _templateObject = _taggedTemplateLiteral(["\n  position: relative;\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  height: 100%;\n  width: 420px;\n  box-sizing: border-box;\n"], ["\n  position: relative;\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  height: 100%;\n  width: 420px;\n  box-sizing: border-box;\n"]),
+    _templateObject2 = _taggedTemplateLiteral(["\n  position: relative;\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  height: 100%;\n  width: 100%;\n  box-sizing: border-box;\n  z-index: 1;\n"], ["\n  position: relative;\n  display: inline-flex;\n  flex-direction: column;\n  justify-content: flex-end;\n  height: 100%;\n  width: 100%;\n  box-sizing: border-box;\n  z-index: 1;\n"]),
+    _templateObject3 = _taggedTemplateLiteral(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin: 0 20px;\n  z-index: 1;\n  color: #fafafa !important;\n  border-bottom: 1px solid;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin: 0 20px;\n  z-index: 1;\n  color: #fafafa !important;\n  border-bottom: 1px solid;\n"]),
+    _templateObject4 = _taggedTemplateLiteral(["\n  text-align: center;\n  font-size: 24px;\n"], ["\n  text-align: center;\n  font-size: 24px;\n"]),
+    _templateObject5 = _taggedTemplateLiteral(["\n  hr {\n    visibility: hidden;\n  }\n"], ["\n  hr {\n    visibility: hidden;\n  }\n"]),
+    _templateObject6 = _taggedTemplateLiteral(["\n  white-space: normal !important;\n  word-break: break-all !important;\n  overflow: initial !important;\n  width: 100%;\n  height: auto !important;\n  color: #fafafa !important;\n"], ["\n  white-space: normal !important;\n  word-break: break-all !important;\n  overflow: initial !important;\n  width: 100%;\n  height: auto !important;\n  color: #fafafa !important;\n"]),
+    _templateObject7 = _taggedTemplateLiteral(["\n  display: flex;\n  align-items: center;\n  padding: 20px;\n  align-self: center;\n  border-top: 1px solid #fafafa;\n"], ["\n  display: flex;\n  align-items: center;\n  padding: 20px;\n  align-self: center;\n  border-top: 1px solid #fafafa;\n"]),
+    _templateObject8 = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 0;\n  width: 100%;\n"], ["\n  position: absolute;\n  top: 0;\n  width: 100%;\n"]),
+    _templateObject9 = _taggedTemplateLiteral(["\n  height: 100%;\n  overflow: auto;\n"], ["\n  height: 100%;\n  overflow: auto;\n"]);
 
 var _react = __webpack_require__(0);
 
@@ -62085,7 +62075,7 @@ var Chatroom = function (_React$Component) {
 
     _this.state = {
       chatHistory: chatHistory,
-      input: ''
+      input: ""
     };
 
     _this.onInput = _this.onInput.bind(_this);
@@ -62097,30 +62087,30 @@ var Chatroom = function (_React$Component) {
   }
 
   _createClass(Chatroom, [{
-    key: 'componentDidMount',
+    key: "componentDidMount",
     value: function componentDidMount() {
       this.props.registerHandler(this.onMessageReceived);
       this.scrollChatToBottom();
     }
   }, {
-    key: 'componentDidUpdate',
+    key: "componentDidUpdate",
     value: function componentDidUpdate() {
       this.scrollChatToBottom();
     }
   }, {
-    key: 'componentWillUnmount',
+    key: "componentWillUnmount",
     value: function componentWillUnmount() {
       this.props.unregisterHandler();
     }
   }, {
-    key: 'onInput',
+    key: "onInput",
     value: function onInput(e) {
       this.setState({
         input: e.target.value
       });
     }
   }, {
-    key: 'onSendMessage',
+    key: "onSendMessage",
     value: function onSendMessage() {
       var _this2 = this;
 
@@ -62129,33 +62119,33 @@ var Chatroom = function (_React$Component) {
       this.props.onSendMessage(this.state.input, function (err) {
         if (err) return console.error(err);
 
-        return _this2.setState({ input: '' });
+        return _this2.setState({ input: "" });
       });
     }
   }, {
-    key: 'onMessageReceived',
+    key: "onMessageReceived",
     value: function onMessageReceived(entry) {
-      console.log('onMessageReceived:', entry);
+      console.log("onMessageReceived:", entry);
       this.updateChatHistory(entry);
     }
   }, {
-    key: 'updateChatHistory',
+    key: "updateChatHistory",
     value: function updateChatHistory(entry) {
       this.setState({ chatHistory: this.state.chatHistory.concat(entry) });
     }
   }, {
-    key: 'scrollChatToBottom',
+    key: "scrollChatToBottom",
     value: function scrollChatToBottom() {
       this.panel.scrollTo(0, this.panel.scrollHeight);
     }
   }, {
-    key: 'render',
+    key: "render",
     value: function render() {
       var _this3 = this;
 
       return _react2.default.createElement(
-        'div',
-        { style: { height: '100%' } },
+        "div",
+        { style: { height: "100%" } },
         _react2.default.createElement(
           ChatWindow,
           null,
@@ -62171,27 +62161,23 @@ var Chatroom = function (_React$Component) {
               primary: true,
               icon: _react2.default.createElement(
                 _FontIcon2.default,
-                {
-                  style: { fontSize: 24 },
-                  className: 'material-icons'
-                },
-                'close'
+                { style: { fontSize: 24 }, className: "material-icons" },
+                "닫기"
               ),
               onClick: this.props.onLeave
             })
           ),
-          _react2.default.createElement(ChatroomImage, {
-            src: this.props.chatroom.image,
-            alt: ''
-          }),
+          _react2.default.createElement(ChatroomImage, { src: this.props.chatroom.image, alt: "" }),
           _react2.default.createElement(
             ChatPanel,
             null,
             _react2.default.createElement(
               Scrollable,
-              { innerRef: function innerRef(panel) {
+              {
+                innerRef: function innerRef(panel) {
                   _this3.panel = panel;
-                } },
+                }
+              },
               _react2.default.createElement(
                 _List.List,
                 null,
@@ -62204,9 +62190,9 @@ var Chatroom = function (_React$Component) {
                     null,
                     _react2.default.createElement(_List.ListItem, {
                       key: i,
-                      style: { color: '#fafafa' },
+                      style: { color: "#fafafa" },
                       leftAvatar: _react2.default.createElement(_Avatar2.default, { src: user.image }),
-                      primaryText: user.name + ' ' + (event || ''),
+                      primaryText: user.name + "\uB2D8\uC774 " + (event || ""),
                       secondaryText: message && _react2.default.createElement(
                         OutputText,
                         null,
@@ -62221,18 +62207,18 @@ var Chatroom = function (_React$Component) {
               InputPanel,
               null,
               _react2.default.createElement(_TextField2.default, {
-                textareaStyle: { color: '#fafafa' },
-                hintStyle: { color: '#fafafa' },
-                floatingLabelStyle: { color: '#fafafa' },
-                hintText: 'Enter a message.',
-                floatingLabelText: 'Enter a message.',
+                textareaStyle: { color: "#fafafa" },
+                hintStyle: { color: "#fafafa" },
+                floatingLabelStyle: { color: "#fafafa" },
+                hintText: "\uBA54\uC138\uC9C0\uB97C \uC785\uB825\uD558\uC138\uC694.",
+                floatingLabelText: "\uCC44\uD305",
                 multiLine: true,
                 rows: 4,
                 rowsMax: 4,
                 onChange: this.onInput,
                 value: this.state.input,
                 onKeyPress: function onKeyPress(e) {
-                  return e.key === 'Enter' ? _this3.onSendMessage() : null;
+                  return e.key === "Enter" ? _this3.onSendMessage() : null;
                 }
               }),
               _react2.default.createElement(
@@ -62243,19 +62229,13 @@ var Chatroom = function (_React$Component) {
                 },
                 _react2.default.createElement(
                   _FontIcon2.default,
-                  {
-                    style: { fontSize: 32 },
-                    className: 'material-icons'
-                  },
-                  'chat_bubble_outline'
+                  { style: { fontSize: 32 }, className: "material-icons" },
+                  "chat_bubble_outline"
                 )
               )
             )
           ),
-          _react2.default.createElement(_Overlay2.default, {
-            opacity: 0.6,
-            background: '#111111'
-          })
+          _react2.default.createElement(_Overlay2.default, { opacity: 0.6, background: "#111111" })
         )
       );
     }
@@ -64540,7 +64520,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function () {
-  var socket = io.connect("13.124.177.139:3000");
+  var socket = io.connect("localhost:3000");
 
   function registerHandler(onMessageReceived) {
     socket.on("message", onMessageReceived);
