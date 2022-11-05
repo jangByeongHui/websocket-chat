@@ -1,26 +1,26 @@
 module.exports = [
   {
-    name: "연핑크",
+    name: "귀염뽀짝",
+    lastName: "임새봄",
+    statusText: "네? 저 초등학생 아닌뎁? O_O",
+    image: "users/ISB_1.webp",
+  },
+  {
+    name: "군인",
     lastName: "장병희",
-    statusText: "안녕? 난 핑크맛 장병희야!",
-    image: "users/PinkJBH.jpg",
+    statusText: "내가 군대에 있을 때는 말이지...",
+    image: "users/JBH_1.webp",
   },
   {
-    name: "백색",
-    lastName: "이가을",
-    statusText: "안녕? 난 블랙 앤 화이트 이가을이야!",
-    image: "users/WhiteGE.jpg",
+    name: "리즈시절",
+    lastName: "임새봄",
+    statusText: "솔직히! 내가 이쁘지? 그치?",
+    image: "users/ISB_2.webp",
   },
   {
-    name: "요염 섹시",
+    name: "취준생",
     lastName: "장병희",
-    statusText: "우리 같이 홀려 볼까요?",
-    image: "users/SexyJBH.jpg",
-  },
-  {
-    name: "젊다 젊어",
-    lastName: "이가을",
-    statusText: "호랑이 담배 피던 시절",
-    image: "users/YoungGE.jpg",
+    statusText: "아 미소요? 쑥스러운데 ㅎㅎ",
+    image: "users/JBH_2.webp",
   },
 ];

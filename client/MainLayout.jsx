@@ -102,7 +102,7 @@ export default ({ children, user }) => (
       </Center>
     </ContentWrapper>
     <FullScreen>
-      <BackgroundImage src="background.jpg" />
+      <BackgroundImage src="background.webp" />
       <Overlay opacity={0.4} background="#212121" />
     </FullScreen>
   </FullScreen>
