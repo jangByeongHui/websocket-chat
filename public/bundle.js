@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3782d9b314e743ec39d5"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "92d465285305b533d5b5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -53305,7 +53305,7 @@ exports.default = function (_ref) {
     _react2.default.createElement(
       _FullScreen2.default,
       null,
-      _react2.default.createElement(BackgroundImage, { src: "background.jpg" }),
+      _react2.default.createElement(BackgroundImage, { src: "background.webp" }),
       _react2.default.createElement(_Overlay2.default, { opacity: 0.4, background: "#212121" })
     )
   );
