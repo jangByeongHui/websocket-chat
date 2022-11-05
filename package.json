@@ -5,6 +5,7 @@
   "scripts": {
     "server": "node ./server/server.js --port 3000",
     "client": "webpack-dev-server --port 3001",
+    "release":"concurrently \"npm run server \" \"npm run client\"",
     "build": "webpack"
   },
   "keywords": [
