@@ -1,18 +1,18 @@
 module.exports = [
   {
-    name: "봄",
-    image: "chatrooms/spring.webp",
+    name: "베트남",
+    image: "chatrooms/vietname.jpg",
   },
   {
-    name: "여름",
-    image: "chatrooms/summer.webp",
+    name: "선글라스",
+    image: "chatrooms/sunglass.jpg",
   },
   {
-    name: "가을",
-    image: "chatrooms/autumn.webp",
+    name: "꽃밭",
+    image: "chatrooms/flower.JPG",
   },
   {
-    name: "겨울",
-    image: "chatrooms/winter.webp",
+    name: "제주",
+    image: "chatrooms/jeju.JPG",
   },
 ];
