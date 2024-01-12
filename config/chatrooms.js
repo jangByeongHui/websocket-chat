@@ -1,7 +1,7 @@
 module.exports = [
   {
     name: "베트남",
-    image: "chatrooms/vietname.jpg",
+    image: "chatrooms/vietnam.jpg",
   },
   {
     name: "선글라스",

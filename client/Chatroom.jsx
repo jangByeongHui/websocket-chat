@@ -199,8 +199,8 @@ export default class Chatroom extends React.Component {
                 onClick={this.onSendMessage}
                 style={{ marginLeft: 20 }}
               >
-                <FontIcon style={{ fontSize: 32 }} className="material-icons">
-                  {"chat_bubble_outline"}
+                <FontIcon style={{ fontSize: 24 }} className="material-icons">
+                  {"전송"}
                 </FontIcon>
               </FloatingActionButton>
             </InputPanel>

@@ -69,13 +69,7 @@ const UserName = styled.p`
 function renderAvatar(user) {
   const props = user
     ? { src: user.image }
-    : {
-        icon: (
-          <FontIcon style={{ fontSize: 96 }} className="material-icons">
-            {"perm_identity"}
-          </FontIcon>
-        ),
-      };
+    : { src: "users/default.png"};
 
   return <Avatar size={160} {...props} />;
 }
