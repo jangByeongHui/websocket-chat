@@ -39,7 +39,7 @@ export default class UserSelection extends React.Component {
 
   render() {
     const actions = [
-      <FlatButton label="닫기" primary onClick={this.props.close} />,
+      <FlatButton label="close" primary onClick={this.props.close} />,
     ];
 
     return (
