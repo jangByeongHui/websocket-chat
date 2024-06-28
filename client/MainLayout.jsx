@@ -75,7 +75,7 @@ function renderAvatar(user) {
 }
 
 function fullName(user) {
-  return user ? `${user.name} ${user.lastName}` : "캐릭터 미선택";
+  return user ? `${user.name} ${user.lastName}` : "Choose a character";
 }
 
 export default ({ children, user }) => (
